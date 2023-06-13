@@ -1,0 +1,56 @@
+#+TITLE: React Component Library Boilerplate
+
+React Component Library Boilerplate is a modern and comprehensive starter kit for creating, testing, and publishing reusable React component libraries. This boilerplate is built with a set of best-in-class tools and practices, enabling developers to kick-start their component library projects with ease.
+
+* Core Features and Tools
+
+  - React 18: Build user interfaces with the latest version of React.
+  - TypeScript: Add static type checking to improve code quality and maintainability.
+  - Jest: Run unit and integration tests using the Jest testing framework.
+  - React Testing Library: Test React components in a user-centric way.
+  - Storybook: Develop and showcase components with an interactive UI component explorer.
+  - Rollup: Produce optimized and efficient library bundles using the Rollup module bundler.
+  - Lerna: Manage multi-package repositories (monorepos) with Lerna.
+  - Yarn + PnP (Plug'n'Play): Benefit from fast and reliable dependency management using Yarn with PnP.
+  - Yarn.Build: Efficiently build code in monorepos with Yarn.Build.
+  - Husky: Enforce code quality standards using Git hooks with Husky.
+  - Commitlint: Ensure conventional commit messages with Commitlint.
+  - GitHub Actions Workflow for Tests: Run automated tests on each push and pull request with GitHub Actions.
+  - Release Automation for Publishing Packages: Automate the release and publishing process for packages.
+
+* Quick Start
+
+  1. Clone the repository:
+     #+BEGIN_SRC sh
+     git clone https://github.com/jwalsh/react-component-library-boilerplate.git
+     #+END_SRC
+
+  2. Move to the repository's root directory:
+     #+BEGIN_SRC sh
+     cd react-component-library-boilerplate
+     #+END_SRC
+
+  3. Install the dependencies using Yarn:
+     #+BEGIN_SRC sh
+     yarn install
+     #+END_SRC
+
+  4. Start the Storybook development server:
+     #+BEGIN_SRC sh
+     yarn storybook
+     #+END_SRC
+
+* Available Scripts
+
+  - =yarn test=: Run tests using Jest and React Testing Library.
+  - =yarn build=: Build the packages using Rollup.
+  - =yarn storybook=: Start the Storybook development server.
+  - =yarn release=: Release and publish packages to the package registry.
+
+* Contributing
+
+  We welcome contributions to React Component Library Boilerplate! Please see the [[file:CONTRIBUTING.org][CONTRIBUTING]] file for guidelines on how to contribute to this project.
+
+* License
+
+  React Component Library Boilerplate is [[file:LICENSE][MIT licensed]].
